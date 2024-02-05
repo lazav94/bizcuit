@@ -1,0 +1,143 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.app-container {
+  text-align: center;
+  background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    color: white;
+  }
+  
+  /* Style for the form container */
+  .login-form-container {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    background-color: #282c14;
+  }
+  
+  /* Style for the form title */
+  .login-form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.75rem;
+  }
+  
+  .todo-new-item-container input[type="text"] {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border- box;
+    font-size: 1rem;
+    margin-left: 30px;
+  }
+  
+  /* Style for form inputs */
+  .login-form-container input[type="email"],
+  .login-form-container input[type="text"],
+  .login-form-container input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+    font-size: 1rem;
+  }
+  
+  /* TODO Add class or better  */
+  label {
+    font-size: 1rem;
+  }
+  
+  .sign-up-link {
+    font-size: 1rem;
+    color: white;
+  }
+  
+  /* Style for form submit button */
+  .login-form-container button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #ccc4;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Style for form submit button on hover */
+.login-form-container button[type="submit"]:hover {
+  background-color: #282c54;
+}
+
+/* Style for error message */
+.error-message {
+  color: red;
+  margin-top: 5px;
+}
+
+/* Style for todo items */
+
+.todo-container {
+  color: black;
+  display: grid;
+  padding: 10px;
+}
+
+.todo-new-item-container {
+  padding: 10px;
+  display: flex;
+}
+.button-create {
+  background: none;
+  border: none;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+}
+
+.todo-item {
+  color: black;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.todo-description {
+  font-size: 1rem;
+  flex: 1;
+  margin-right: 10px;
+}
+.todo-icons {
+  display: flex;
+  align-items: center;
+}
+.todo-icon {
+  margin-right: 5px;
+  cursor: pointer;
+  color: #000;
+  width: 20px;
+}
+.todo-icon-add {
+  margin-right: 5px;
+  cursor: pointer;
+  color: #fff;
+}
